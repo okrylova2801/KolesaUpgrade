@@ -16,10 +16,7 @@ class SearchBlouseCest
         //'.fancybox-iframe'
         $fancyboxIframeCSS = '.fancybox-iframe';
         $fancyboxIframeXPath = '//*[@class="fancybox-iframe"]';
-        //'#product'
-        $productCSS = '#product';
-        $productXPath = '//*[@id="product"]';
-        //'Blouse'
+        //'#product > div > div > div.pb-center-column.col-xs-12.col-sm-4 > h1'
         $textBlouseCSS = '#product > div > div > div.pb-center-column.col-xs-12.col-sm-4 > h1';
         $textBlouseXpath = '//*[@id="product"]/div/div/div[2]/h1';
 
