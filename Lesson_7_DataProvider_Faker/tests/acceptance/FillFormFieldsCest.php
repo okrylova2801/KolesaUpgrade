@@ -31,7 +31,7 @@ class FillFormFieldsCest
                 $city = $faker->city;
                 $state = $faker->state;
                 $postCode = $faker->postcode;
-                $creditCardNumber = $faker->getCreditNumber(); //$I->getFaker()->getCreditNumber();
+                $creditCardNumber = $I->getFaker()->getCreditNumber();
                 $firstNamePaymentMethod = $faker->firstName;
                 $lastNamePaymentMethod = $faker->lastName;
                 $month = $faker->monthName;
