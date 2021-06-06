@@ -43,7 +43,7 @@ class WishListCest
          * @before login
          * @after logout
          */
-        public function checkValueInTableMyWishlist(\Step\Acceptance\WishListStep $I)
+        public function checkValueInTableMyWishlist(\Step\Acceptance\AddCardsToWishListStep $I)
         {
                 $I->amOnPage(MainPage::$URL);
                 $I->comment('Добавляем товары в WishList');

@@ -4,7 +4,7 @@ namespace Step\Acceptance;
 use Page\Acceptance\MainPage;
 use WishListCest;
 
-class WishListStep extends \AcceptanceTester
+class AddCardsToWishListStep extends \AcceptanceTester
 {
         /**
          * Цикл добавления карточек в My WishList
