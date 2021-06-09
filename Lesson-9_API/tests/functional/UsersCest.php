@@ -8,18 +8,18 @@ class UsersCest
         public $userId;
 
         public static $defaultSchema = [
-                "job"           => 'string',
-                "_id"           => 'string',
-                "email"        => 'string',
+                "job"       => 'string',
+                "_id"       => 'string',
+                "email"     => 'string',
                 "superhero" => 'boolean',
-                "name"       => 'string',
-                "owner"       => 'string',
+                "name"      => 'string',
+                "owner"     => 'string',
         ];
 
         public static $userData = [
                 'email'  => 'test_test_777@inbox.ru',
-                'name'  => 'Olga',
-                'owner' => 'Olga_Krylova',
+                'name'   => 'Olga',
+                'owner'  => 'Olga_Krylova',
         ];
 
         /**
